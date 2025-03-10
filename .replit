@@ -1,3 +1,14 @@
 language = "c"
-run = "gcc -o labrabota2-1 /home/runner/workspace/src/main.c"
+run = "gcc -o bin/labrabota2-1 /home/runner/workspace/src/main.c"
 modules = ["c-clang14"]
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 40371206
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./bin/labrabota2-1"
