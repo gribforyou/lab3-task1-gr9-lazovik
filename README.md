@@ -1,11 +1,15 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+This project was made as a part of course TPMA in BSU, FAMCS by **Lazovik Ignat from 9a group**  
+Project is written with **C programming language**, **make** utilit and **repl.it** idea
 
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+Features will be added later
 
 # Building
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+Please, import repository from github by
+```
+git clone [url]
+```
