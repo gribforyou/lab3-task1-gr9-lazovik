@@ -1,8 +1,9 @@
-/* hello.c */
+/* main.c */
+#include "marks.h"
 #include <stdio.h>
 
-void main (void)
+int main ()
 {
-	printf ("Hello World\n");
-	printf ("Goodbye World\n");
+	compare_marks();
+	return 0;
 }
