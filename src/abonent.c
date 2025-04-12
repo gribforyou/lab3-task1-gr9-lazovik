@@ -100,6 +100,7 @@ bool is_old_client(struct ABON1 abonent) {
     return false;
 }
 
+/*add bonus to abons who registrated more than 10 years ago*/
 void give_bonus(struct ABON1 *abons, int abons_count){
   for (int i = 0; i < abons_count; i++){
     if (is_old_client(abons[i]))
@@ -107,6 +108,7 @@ void give_bonus(struct ABON1 *abons, int abons_count){
   }
 }
 
+/*print abons with negative balance after paying*/
 void print_negative_abons(struct ABON1 *abons, int abons_count){
   for (int i = 0; i < abons_count; i++)
     if(abons[i].account_balance < abons[i].accrued_payment){
