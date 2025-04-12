@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o bin/labrabota2-1 /home/runner/workspace/src/main.c /home/runner/workspace/src/marks.c"
+run = "gcc -o bin/labrabota2-1 /home/runner/workspace/src/main.c /home/runner/workspace/src/marks.c /home/runner/workspace/src/abonent.c"
 modules = ["c-clang14"]
 
 [workflows]
