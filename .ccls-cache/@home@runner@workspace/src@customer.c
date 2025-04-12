@@ -19,6 +19,7 @@ struct Customer* get_customers_from_pinsk(struct Customer* customers, int count)
       cur++;
     }
   }
+  return pinsk_customers;
 }
 
 void print_customers(struct Customer* customers, int count){

@@ -8,6 +8,7 @@ int main ()
 {
 	//marks task
 	compare_marks();
+	printf("\n");
 	
 	//abons task
 	struct ABON1* abons = get_abons(3);
@@ -22,7 +23,8 @@ int main ()
 	print_abons(abons, 3);
 
 	print_tarif_statistics(abons, 3);
-
+	printf("\n");
+	
 	//customer task
 	struct Customer test_customers[] = {
 			{"Ivanov", "Ivan", "Ivanovich", 'M', "Belarusian", 180.5, 75.3,
@@ -41,6 +43,6 @@ int main ()
 				"Lenina", "5", "3"}, "1122334455667788", "BY00ALFA303456789012"}
 	};
 	struct Customer* from_pinsk = get_customers_from_pinsk(test_customers, 3);
-	print_customers(from_pinsk, 3);
+	print_customers(from_pinsk, 2);
 	return 0;
 }
